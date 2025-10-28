@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom styles for Times New Roman font and justification */
+      body {
+        font-family: "Times New Roman", serif;
+        color: #000000; /* Black font color */
+      }
+      h1,
+      h2,
+      h3 {
+        font-size: 20px; /* Heading font size */
+        font-weight: bold; /* Headings should be bold */
+      }
+      p,
+      a,
+      img {
+        font-size: 14px; /* Body font size */
+      }
+      p {
+        text-align: justify; /* Both sides justified for paragraphs */
+      }
+      /* Ensure image is responsive */
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block; /* Remove extra space below image */
+        margin: 0 auto; /* Center image */
+        border-radius: 0.5rem; /* Rounded corners for image */
+      }
+      /* General container styling for uniform look */
+      .container {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1.5rem;
+        background-color: #ffffff;
+        border-radius: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      /* Link styling */
+      a {
+        color: #1a73e8; /* A standard blue for links */
+        text-decoration: underline;
+      }
+      a:hover {
+        color: #0d47a1; /* Darker blue on hover */
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 p-4">
+    <div class="container">
+      <!-- Heading for Name -->
+      <h1 class="text-center mb-4">Suvodip Patra</h1>
+
+      <!-- Heading for Course -->
+      <h2 class="text-center mb-4">Computer Science and Engineering</h2>
+
+      <!-- Heading for University -->
+      <h3 class="text-center mb-6">
+        College of Engineering and Management, Kolaghat
+      </h3>
+
+      <!-- Short Bio Paragraph -->
+      <p class="mb-6">
+        Hello! I am Suvodip Patra, a dedicated and enthusiastic student pursuing
+        a Bachelor's degree in Computer Science and Engineering. My academic
+        journey at the College of Engineering and Management, Kolaghat, has
+        provided me with a strong foundation in various aspects of computing,
+        including programming, data structures, algorithms, and multimedia
+        systems. I am particularly interested in exploring new technologies and
+        applying theoretical knowledge to practical challenges. I am always
+        eager to learn and contribute to innovative projects in the field of
+        technology.
+      </p>
+
+      <!-- Image -->
+      <div class="flex justify-center mb-6">
+        <!-- Placeholder image: Replace with your actual photo URL -->
+        <img
+          src="https://suvodipdev.free.nf/assets/profile1.jpg"
+          alt="Suvodip Patra's Photo"
+          class="rounded-lg shadow-md w-48 h-48 object-cover"
+        />
+      </div>
+
+      <!-- Hyperlink to College Website -->
+      <p class="text-center">
+        Learn more about my college:
+        <a href="https://cemk.ac.in/" target="_blank" rel="noopener noreferrer"
+          >College of Engineering and Management, Kolaghat</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
